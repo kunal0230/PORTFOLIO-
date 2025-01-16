@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kunal Chaugule</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Kunal Chaugule</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#wildlife">Wildlife Photography</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <nav id="hamburger-nav">
+    <div class="logo">Kunal Chaugule</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+        <li><a href="#wildlife" onclick="toggleMenu()">Wildlife Photography</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/Kunal_chaugule-modified.png" alt="Kunal Chaugule profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Kunal Chaugule</h1>
+      <p class="section__text__p2">Machine learning Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/certificate/Kunal_europass_2025.pdf', '_blank')        ">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/kunal-chaugule-/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/kunal0230'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/meme_cat_project_shown_below.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years Domain Experience <br />1+ years Working Experience</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.E Bachelors Degree<br />CSE-Data Science with Cyber Security Honours </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hi, I’m Kunal Chaugule, a final-year Data Science Engineering student at Mumbai University and an ML Research Assistant. I’m passionate about solving real-world challenges with data-driven approaches and machine learning. 
+            <br><br>
+            My achievements include leading my team to victory in the Smart India Hackathon 2023 and successfully managing and delivering innovative projects. I enjoy exploring new research opportunities in data science and AI.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  
+  
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Libraries</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tensorflow</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/pytorch.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PyTorch</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/keras.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Keras</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/opencv.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>OpenCv</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/sklearn.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Sci-kit Learn</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/sci-kit.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Sci-kit Image</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/numpy.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>NumPy</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Pandas</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/matplotlib.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MatplotLib</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/github.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/vscode.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>VS Code</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/colab.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Google Colab</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/tableu.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tableu</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/aws.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>AWS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/py.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/sql.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/html.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/css.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/java.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JAVA</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/c++.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Research Interest</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Computer Vision</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Image Processing</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Deep learning</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Pose Estimation</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Artificial Intelligance</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Data Science</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+ 
+  
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="./assets/projects/p1.jpeg" alt="Project One" class="project-img" />
+        <h2 class="project-title">Gesture-Controlled Velocity-Based Virtual Piano Interface</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/kunal0230/Virtual_Piano_With_Computer_Vision', '_blank')">Github</button>
+          <button class="btn btn-color-2" onclick="showProjectDetails(0)">Learn More</button>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="./assets/projects/p2 (1).jpeg" alt="Project Two" class="project-img" />
+        <h2 class="project-title">Distance Estimation using Esp32-CAM Stereo Vision</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/kunal0230/Distance_Estimation_Using_Stereo_ESP32-CAM', '_blank')">Github</button>
+          <button class="btn btn-color-2" onclick="showProjectDetails(1)">Learn More</button>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="./assets/projects/p3.jpeg" alt="Project Three" class="project-img" />
+        <h2 class="project-title">Human Detection and Tracking using Esp32-CAM and SG-90 Servo</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/kunal0230/Human-Detection-and-Tracking-using-Esp32-CAM-and-SG-90-Servo', '_blank')">Github</button>
+          <button class="btn btn-color-2" onclick="showProjectDetails(2)">Learn More</button>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img src="./assets/projects/p4.jpeg" alt="Project Four" class="project-img" />
+        <h2 class="project-title">FitLife: ML-Driven Computer Vision for Exercise Guidance</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/kunal0230/FITLIFE', '_blank')">Github</button>
+          <button class="btn btn-color-2" onclick="showProjectDetails(3)">Learn More</button>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="project-card">
+        <img src="./assets/projects/p5.jpeg" alt="Project Five" class="project-img" />
+        <h2 class="project-title">Self-Driving-Car-Simulation-Using-Stereo-ESP32-CAM</h2> <br> <br> <br>
+      
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://github.com/kunal0230/Self-Driving-Car-Simulation-Using-Stereo-ESP32-CAM', '_blank')">Github</button>
+          <button class="btn btn-color-2" onclick="showProjectDetails(4)">Learn More</button>
+        </div>
+      </div>
+      <!-- Project 6 -->
+<div class="project-card">
+  <img src="./assets/projects/p6 .jpeg" alt="Project Six" class="project-img" />
+  <h2 class="project-title">Polyp Segmentation Using UNet-3 with TensorFlow</h2>
+  <div class="btn-container">
+    <button class="btn btn-color-2" onclick="window.open('https://github.com/kunal0230/Polyp-Segmentation-Using-UNet-3-with-TensorFlow', '_blank')">Github</button>
+    <button class="btn btn-color-2" onclick="showProjectDetails(5)">Learn More</button>
+  </div>
+</div>
+
+      <!-- Repeat similar blocks for all projects up to Project 9 -->
+    </div>
+  
+    <!-- Popup for Project Details -->
+    <div id="project-popup" class="project-popup">
+      <div class="popup-content">
+        <span class="close-btn" onclick="closeProjectPopup()">&times;</span>
+        <h2 id="popup-title"></h2>
+        <p id="popup-description"></p>
+      </div>
+    </div>
+  </section>
+
+<!--   
+  <section id="certifications">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Certifications</h1>
+    <div class="certifications-container">
+      <div class="certification-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/XXXXX', '_blank')">
+        <img src="./assets/certificate/deepLai.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Neural Networks and Deep Learning</h2>
+          <p class="certification-platform">DeepLearning.AI</p>
+          <p class="certification-issued">Issued Jan 2025</p>
+        </div>
+      </div>
+
+      <div class="certification-card" onclick="window.open('https://www.udemy.com/certificate/UC-2fc2b708-4dc4-4688-a346-d5096c0b1915/', '_blank')">
+        <img src="./assets/certificate/Udemy New.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Complete Machine Learning, NLP Bootcamp MLOPS & Deployment</h2>
+          <p class="certification-platform">Udemy</p>
+          <p class="certification-issued">Issued Sep 2024</p>
+        </div>
+      </div>
+      
+      </div>
+      <div class="certification-card" onclick="window.open('https://www.udemy.com/certificate/UC-72b6afed-e32c-4e39-8c51-d2e56f609cdb/', '_blank')">
+        <img src="./assets/certificate/Udemy New.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">PyTorch for Deep Learning Bootcamp</h2>
+          <p class="certification-platform">Udemy</p>
+          <p class="certification-issued">Issued Nov 2024</p>
+        </div>
+      </div>
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/5e40fd5c0a416933a14249022589e3bb', '_blank')">
+        <img src="./assets/certificate/ibm-logo-1367.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Introduction to Computer Vision and Image Processing</h2>
+          <p class="certification-platform">IBM</p>
+          <p class="certification-issued">Issued Aug 2024</p>
+        </div>
+      </div>
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/5ff049915195f4d66e9d0ae7507a3aee', '_blank')">
+        <img src="./assets/certificate/google_logo.webp" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Data Analysis with R Programming</h2>
+          <p class="certification-platform">Google</p>
+          <p class="certification-issued">Issued Oct 2024</p>
+        </div>
+      </div>
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/8098085fc0f56237006adec33e92121b', '_blank')">
+        <img src="./assets/certificate/google_logo.webp" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Foundations: Data, Data, Everywhere</h2>
+          <p class="certification-platform">Google</p>
+          <p class="certification-issued">Issued Aug 2023</p>
+        </div>
+      </div>
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/c594248e523a2cdbffc9cff829da62e2', '_blank')">
+        <img src="./assets/certificate/SOAS_logo.webp" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Understanding Research Methods</h2>
+          <p class="certification-platform">SOAS University of London</p>
+          <p class="certification-issued">Issued Jan 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  -->
+  <section id="certifications">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Certifications</h1>
+    <div class="certifications-container">
+      <div class="certification-card" onclick="window.open('https://www.coursera.org/account/accomplishments/certificate/XXXXX', '_blank')">
+        <img src="./assets/certificate/deepLai.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Neural Networks and Deep Learning</h2>
+          <p class="certification-platform">DeepLearning.AI</p>
+          <p class="certification-issued">Issued Jan 2025</p>
+        </div>
+      </div>
+  
+      <div class="certification-card" onclick="window.open('https://www.udemy.com/certificate/UC-2fc2b708-4dc4-4688-a346-d5096c0b1915/', '_blank')">
+        <img src="./assets/certificate/Udemy New.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Complete Machine Learning, NLP Bootcamp MLOPS & Deployment</h2>
+          <p class="certification-platform">Udemy</p>
+          <p class="certification-issued">Issued Sep 2024</p>
+        </div>
+      </div>
+  
+      <div class="certification-card" onclick="window.open('https://www.udemy.com/certificate/UC-72b6afed-e32c-4e39-8c51-d2e56f609cdb/', '_blank')">
+        <img src="./assets/certificate/Udemy New.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">PyTorch for Deep Learning Bootcamp</h2>
+          <p class="certification-platform">Udemy</p>
+          <p class="certification-issued">Issued Nov 2024</p>
+        </div>
+      </div>
+  
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/5e40fd5c0a416933a14249022589e3bb', '_blank')">
+        <img src="./assets/certificate/ibm-logo-1367.png" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Introduction to Computer Vision and Image Processing</h2>
+          <p class="certification-platform">IBM</p>
+          <p class="certification-issued">Issued Aug 2024</p>
+        </div>
+      </div>
+  
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/5ff049915195f4d66e9d0ae7507a3aee', '_blank')">
+        <img src="./assets/certificate/google_logo.webp" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Data Analysis with R Programming</h2>
+          <p class="certification-platform">Google</p>
+          <p class="certification-issued">Issued Oct 2024</p>
+        </div>
+      </div>
+  
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/8098085fc0f56237006adec33e92121b', '_blank')">
+        <img src="./assets/certificate/google_logo.webp" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Foundations: Data, Data, Everywhere</h2>
+          <p class="certification-platform">Google</p>
+          <p class="certification-issued">Issued Aug 2023</p>
+        </div>
+      </div>
+  
+      <div class="certification-card" onclick="window.open('https://coursera.org/share/c594248e523a2cdbffc9cff829da62e2', '_blank')">
+        <img src="./assets/certificate/SOAS_logo.webp" alt="Certification Icon" class="certification-icon" />
+        <div>
+          <h2 class="certification-title">Understanding Research Methods</h2>
+          <p class="certification-platform">SOAS University of London</p>
+          <p class="certification-issued">Issued Jan 2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section id="wildlife">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Wildlife Photography</h1>
+    <div class="wildlife-grid">
+      <!-- Dynamically add 22 images -->
+      <img src="./assets/photos/IMG_0129.jpg" class="wildlife-img" onclick="openGallery(0)" alt="Wildlife Photo 1" />
+      <img src="./assets/photos/IMG_1857.jpg " class="wildlife-img" onclick="openGallery(1)" alt="Wildlife Photo 2" />
+      <img src="./assets/photos/IMG_3827-1.jpg" class="wildlife-img" onclick="openGallery(2)" alt="Wildlife Photo 3" />
+      <img src="./assets/photos/IMG_1561.jpg" class="wildlife-img" onclick="openGallery(3)" alt="Wildlife Photo 4" />
+      <img src=" ./assets/photos/IMG_1265.png" class="wildlife-img" onclick="openGallery(4)" alt="Wildlife Photo 5" />
+      <img src="./assets/photos/IMG_2323.jpg" class="wildlife-img" onclick="openGallery(5)" alt="Wildlife Photo 6" />
+      <img src="./assets/photos/IMG_2510.jpg" class="wildlife-img" onclick="openGallery(6)" alt="Wildlife Photo 7" />
+      <img src="./assets/photos/IMG_2557.jpg" class="wildlife-img" onclick="openGallery(7)" alt="Wildlife Photo 8" />
+      <img src="./assets/photos/IMG_2792.jpg" class="wildlife-img" onclick="openGallery(8)" alt="Wildlife Photo 9" />
+      <img src="./assets/photos/IMG_2794.jpg" class="wildlife-img" onclick="openGallery(9)" alt="Wildlife Photo 10" />
+      <img src="./assets/photos/IMG_2834HQ.jpg" class="wildlife-img" onclick="openGallery(10)" alt="Wildlife Photo 11" />
+      <img src="./assets/photos/IMG_3191.jpg" class="wildlife-img" onclick="openGallery(11)" alt="Wildlife Photo 12" />
+      <img src="./assets/photos/IMG_3485.jpg" class="wildlife-img" onclick="openGallery(12)" alt="Wildlife Photo 13" />
+      <img src="./assets/photos/IMG_3541.jpg" class="wildlife-img" onclick="openGallery(13)" alt="Wildlife Photo 14" />
+      <img src="./assets/photos/IMG_3555.jpg" class="wildlife-img" onclick="openGallery(14)" alt="Wildlife Photo 15" />
+      <img src="./assets/photos/IMG_3559.jpg" class="wildlife-img" onclick="openGallery(15)" alt="Wildlife Photo 16" />
+      <img src="./assets/photos/IMG_3644.jpg" class="wildlife-img" onclick="openGallery(16)" alt="Wildlife Photo 17" />
+      <img src="./assets/photos/IMG_1297.png " class="wildlife-img" onclick="openGallery(17)" alt="Wildlife Photo 18" />
+      <img src="./assets/photos/IMG_5628.jpg" class="wildlife-img" onclick="openGallery(18)" alt="Wildlife Photo 19" />
+      <img src="./assets/photos/IMG_5753.jpg" class="wildlife-img" onclick="openGallery(19)" alt="Wildlife Photo 20" />
+      <img src="./assets/photos/IMG_6854.jpg" class="wildlife-img" onclick="openGallery(20)" alt="Wildlife Photo 21" />
+      <img src="./assets/photos/IMG_9177.jpg" class="wildlife-img" onclick="openGallery(21)" alt="Wildlife Photo 22" />
+    </div>
+  
+    <!-- Popup Gallery -->
+    <div id="gallery-popup" class="gallery-popup">
+      <span class="close-btn" onclick="closeGallery()">&times;</span>
+      <img id="popup-img" class="popup-img" src="" alt="Popup Image" />
+      <button class="nav-arrow left-arrow" onclick="changeImage(-1)">&#10094;</button>
+      <button class="nav-arrow right-arrow" onclick="changeImage(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:kunalchaugule36@gmail.com">Kunalchaugule36@gmail.com </a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/kunal-chaugule-/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Kunal Chaugule. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
